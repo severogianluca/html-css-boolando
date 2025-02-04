@@ -42,6 +42,26 @@ body{
 }
 
 /* MAIN STILE */
+.container-shop{
+    margin: 0 auto;
+    width: calc(100% - 20%);
+    padding-top: 30px;
+   
+}  
+
+.catalogo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+     justify-content: center;
+    
+}
+
+.catalogo img{
+    width: 100%; /* L'immagine si adatta al contenitore */
+    height: auto; /* Mantiene le proporzioni */
+    max-height: 630px; /* Imposta un'altezza massima */
+}
 
 
 
