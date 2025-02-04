@@ -127,6 +127,45 @@ body{
 }
 
 
+/* STILE FOOTER */
+#fine{
+    height: 110px;
+    display: flex;
+    background-color: #1a1a1a;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 30%);
+}
+
+.logo-footer{
+    display: flex;
+    gap: 15px;
+    color: white;
+    align-items: center;
+}
+
+.logo-footer i{
+    margin-top: 10px;
+    font-size: 25px;
+
+}
+
+.azienda{
+    color: white;
+}
+
+.social{
+    color: white;
+}
+
+
 
 
 
