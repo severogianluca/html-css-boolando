@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
+/* HEADER STILE */
+#banner{
+    height: 70px;
+    display: flex;
+    background-color: #ff6900;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.sesso{
+    color: white;
+    font-weight: bold;
+}
+
+.boolean{
+    height: 30px;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+    color: white;
+    align-items: center;
+}
+
+/* MAIN STILE */
+
+
+
+
