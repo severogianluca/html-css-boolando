@@ -63,6 +63,19 @@ body{
     max-height: 630px; /* Imposta un'altezza massima */
 }
 
+.prezzo-scontato{
+    color: red;
+    font-weight: bold;
+}
+
+.prezzo{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
 
 
 
