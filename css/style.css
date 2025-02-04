@@ -73,6 +73,46 @@ body{
     gap: 10px;
 }
 
+/* STILE PER LE POSIZIONI DEI CARTELLINI */
+.item{
+    position: relative;
+}
+
+.sconto{
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    bottom: 110px;
+}
+
+.sostenibilita{
+    position:absolute;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    bottom: 110px;
+    left: 60px;
+    font-weight: bold;
+}
+
+.sostenibilita-sx{
+    position:absolute;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    bottom: 110px;
+    font-weight: bold;
+}
+
+
+
 
 
 
