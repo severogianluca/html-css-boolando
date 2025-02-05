@@ -28,10 +28,29 @@ body{
     width: 70%;
 }
 
-.sesso{
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+header ul{
+    display: flex;
+    gap: 10px;
+}
+
+header ul a{
     color: white;
     font-weight: bold;
 }
+
+header a:hover{
+    color: black;
+}
+
+
+
 
 .boolean{
     height: 30px;
