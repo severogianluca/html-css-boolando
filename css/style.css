@@ -79,6 +79,7 @@ body{
 /* STILE PER LE POSIZIONI DEI CARTELLINI */
 .item{
     position: relative;
+    width: 30%;
 }
 
 .sconto{
@@ -166,10 +167,20 @@ body{
 }
 
 
+/* STILE PER LE FOTO CHE CAMBIANO IMMMAGINE */
 
+.image1 {
+    width: 100%; 
+    height: 630px; 
+    background-size: cover; /* Copre tutto lo spazio */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/1.webp);
+}
 
-
-
+.image1:hover {
+    background-image: url(../img/1b.webp);
+}
 
 
 
