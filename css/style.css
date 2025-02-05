@@ -56,7 +56,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-     justify-content: center;
+    justify-content: center;
+    margin-bottom: 20px;
     
 }
 
@@ -115,17 +116,7 @@ body{
     font-weight: bold;
 }
 
-.heart{
-    background-color: white;
-    position: absolute;
-    padding: 15px;
-    top: 10px;
-    right: 0px;
-}
 
-.heart i{
-    font-size: 30px;
-}
 
 
 /* STILE FOOTER */
@@ -167,20 +158,79 @@ body{
 }
 
 
-/* STILE PER LE FOTO CHE CAMBIANO IMMMAGINE */
+/* STILE PER LE TRANSICTION DEL MI PIACE E DELLE FOTO */
 
-.image1 {
+.heart{
+    background-color: white;
+    position: absolute;
+    padding: 15px;
+    top: 10px;
+    right: 0px;
+}
+
+.heart i{
+    font-size: 30px;
+}
+
+
+.image1, .image2, .image3, .image4, .image5, .image6{
     width: 100%; 
     height: 630px; 
     background-size: cover; /* Copre tutto lo spazio */
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.image1{
     background-image: url(../img/1.webp);
 }
 
 .image1:hover {
     background-image: url(../img/1b.webp);
 }
+
+.image2{
+    background-image: url(../img/2.webp);
+}
+
+.image2:hover {
+    background-image: url(../img/2b.webp);
+}
+
+.image3{
+    background-image: url(../img/3.webp);
+}
+
+.image3:hover {
+    background-image: url(../img/3b.webp);
+}
+
+.image4{
+    background-image: url(../img/4.webp);
+}
+
+.image4:hover {
+    background-image: url(../img/4b.webp);
+}
+
+.image5{
+    background-image: url(../img/5.webp);
+}
+
+.image5:hover {
+    background-image: url(../img/5b.webp);
+}
+
+.image6{
+    background-image: url(../img/6.webp);
+}
+
+.image6:hover {
+    background-image: url(../img/6b.webp);
+}
+
+
+
 
 
 
