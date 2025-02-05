@@ -117,8 +117,6 @@ body{
 }
 
 
-
-
 /* STILE FOOTER */
 #fine{
     height: 110px;
@@ -170,6 +168,10 @@ body{
 
 .heart i{
     font-size: 30px;
+}
+
+.heart:hover i{
+    color: red;
 }
 
 
